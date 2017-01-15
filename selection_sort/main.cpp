@@ -15,7 +15,7 @@ int main()
     for(i=0; i<5; i++)
     {
         minimum=arr[i];
-        pos=0;
+        pos=i;
         //Finding minimum in remaining list
         for(j=i+1; j<5; j++)
         {
